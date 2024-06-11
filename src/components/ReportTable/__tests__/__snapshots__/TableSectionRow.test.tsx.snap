@@ -1,0 +1,29 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableSectionRow matches the snapshot 1`] = `
+"<DocumentFragment>
+  <table>
+    <tbody>
+      <tr
+        class=""
+      >
+        <td
+          class="px-2 py-1.5 pl-4"
+        >
+          Cell 1
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          Cell 2
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          Cell 3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>"
+`;

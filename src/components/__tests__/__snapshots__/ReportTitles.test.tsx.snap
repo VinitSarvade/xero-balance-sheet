@@ -1,0 +1,21 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportTitles matches snapshot 1`] = `
+"<DocumentFragment>
+  <h1
+    class="text-4xl text-center font-semibold"
+  >
+    Title 1
+  </h1>
+  <h2
+    class="mt-2 text-2xl tracking-tight text-zinc-700 text-center font-semibold"
+  >
+    Title 2
+  </h2>
+  <h2
+    class="mt-2 text-2xl tracking-tight text-zinc-700 text-center font-semibold"
+  >
+    Title 3
+  </h2>
+</DocumentFragment>"
+`;

@@ -1,0 +1,99 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableSection matches snapshot 1`] = `
+"<DocumentFragment>
+  <table>
+    <tbody>
+      <tr>
+        <td
+          class="py-2"
+          colspan="3"
+        >
+          <div
+            class="font-semibold text-2xl"
+            data-testid="section-title"
+          >
+            Assets
+          </div>
+        </td>
+      </tr>
+      <tr
+        class=""
+      >
+        <td
+          class="px-2 py-1.5 pl-4"
+        >
+          Cash
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          ₹100.00
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          ₹120.00
+        </td>
+      </tr>
+      <tr
+        class=""
+      >
+        <td
+          class="px-2 py-1.5 pl-4"
+        >
+          Checking Account
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          ₹50.00
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          ₹100.00
+        </td>
+      </tr>
+      <tr
+        class=""
+      >
+        <td
+          class="px-2 py-1.5 pl-4"
+        >
+          Savings Account
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          ₹50.00
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          ₹500.00
+        </td>
+      </tr>
+      <tr
+        class="border-solid border-gray-400 border-y bg-sky-100"
+      >
+        <td
+          class="px-2 py-1.5 pl-4"
+        >
+          Total Assets
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          ₹200.00
+        </td>
+        <td
+          class="px-2 text-right"
+        >
+          ₹720.00
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>"
+`;

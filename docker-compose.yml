@@ -1,0 +1,29 @@
+services:
+  web:
+    image: "oven/bun:1.1.12-alpine"
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: ["/bin/sh", "-c", "bun install && bun dev"]
+    ports:
+      - "3000:3000"
+    environment:
+      - XERO_API_BASE_URL=http://show-me-the-money:3000
+      - BASE_URL=http://localhost:3000
+    depends_on:
+      - show-me-the-money
+
+  test:
+    image: "oven/bun:1.1.12-alpine"
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: ["/bin/sh", "-c", "bun install && bun test"]
+    environment:
+      - XERO_API_BASE_URL=http://show-me-the-money:3000
+      - BASE_URL=http://localhost:3000
+    depends_on:
+      - show-me-the-money
+
+  show-me-the-money:
+    image: jaypeng2015/show-me-the-money:latest
